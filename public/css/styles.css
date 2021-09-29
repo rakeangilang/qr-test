@@ -1,0 +1,54 @@
+main {
+  width: 1000px;
+  margin: auto;
+  justify-content: center;
+}
+
+.table-container {
+  border-radius: 25px;
+}
+
+th,
+td {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.table-container h5 {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+#newProduct {
+  height: 50px;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#newProduct button {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#challenge button {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.challenge-container {
+  margin-top: 50px;
+}
+
+.challenge {
+  width: 500px;
+  margin: 100px auto;
+}
